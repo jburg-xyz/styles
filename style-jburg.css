@@ -21,7 +21,7 @@
   }
   @font-face {
     font-family: "Monda";
-    src: url(../Fonts/Monda-VariableFont_wght.ttf);
+    src: url(https://jburg-xyz.github.io/styles/fonts/Monda-VariableFont_wght.ttf) format(.ttf);
   }
 
 /*              MAIN ELEMENTS               */
