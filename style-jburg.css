@@ -17,11 +17,11 @@
   }
   @font-face {
     font-family: "Jersy-25";
-    src: url(https://jburg-xyz.github.io/styles/fonts/Jersey25-Regular.ttf/) format('truetype');
+    src: url(https://jburg-xyz.github.io/styles/fonts/Jersey25-Regular.ttf) format('truetype');
   }
   @font-face {
     font-family: "Monda";
-    src: url(https://jburg-xyz.github.io/styles/fonts/Monda-VariableFont_wght.ttf/) format('truetype');
+    src: url(https://jburg-xyz.github.io/styles/fonts/Monda-VariableFont_wght.ttf) format('truetype');
   }
 
 /*              MAIN ELEMENTS               */
