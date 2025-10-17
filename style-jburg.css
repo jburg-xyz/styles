@@ -31,9 +31,9 @@
     padding: 0;
   }
   :root{
-    --color-primary: hsl(349, 0%, 99%);
-    --color-secondary: hsl(0, 100, 47);
-    --color-tertiary: hsl(49, 80%, 10%);
+    --color-primary: hsl(349, 99%, 0%);
+    --color-secondary: hsl(0, 100%, 40%);
+    --color-tertiary: hsl(349, 0%, 99%);
     --color-accent: hsl(27, 100%, 57%);
     --transition-duration-default: 0s ease-in-out;
     --font-feault: "Monda", monospace, Helvetica, sans-serif;
@@ -103,7 +103,7 @@
     0.025em 0.05em .05em hsl(228, 100%, 50%);*/
   }
   #burger-icon:hover {
-    filter: brightness(10%);
+    filter: brightness(100000%);
     transition: var(--transition-duration-default);
     cursor: pointer;
   }
@@ -640,6 +640,9 @@ th, tr {
   #logo{
     justify-content: left;
     width: 80vw;
+  }
+  #logo:hover {
+    filter: brightness(100000%);
   }
   #img-about{
     width: 95%;
