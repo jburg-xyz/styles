@@ -62,7 +62,6 @@
     text-align: center;
   }
   .typewriter {
-  font-family: monospace;      /* optional */
   white-space: pre-wrap;
   overflow: hidden;
   /* No border‑right, no animation → no caret */
