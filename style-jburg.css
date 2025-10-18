@@ -62,8 +62,9 @@
     text-align: center;
   }
   .typewriter {
-  white-space: pre-wrap;
-  overflow: hidden;
+      white-space: pre-wrap;           /* keep normal wrapping */
+      overflow: hidden;                /* hide characters not yet typed */
+      visibility: hidden;              /* start hidden, reveal on first char */
   /* No border‑right, no animation → no caret */
   }
   h1, h2, h3, h4, h5{
