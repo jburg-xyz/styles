@@ -247,7 +247,7 @@ header #nav-check{
   width: 100%;
   z-index: 10000;
 }
-.main-pages, .main{
+.main-pages, main{
   /*padding-left: 10vw;*/
   width: 80vw;
   max-width: 1400px;
