@@ -36,7 +36,7 @@
     --color-tertiary: hsl(349, 0%, 99%);
     --color-accent: hsl(27, 100%, 57%);
     --transition-duration-default: 0s ease-in-out;
-    --font-feault: "Monda", monospace, Helvetica, sans-serif;
+    --font-default: "Monda", monospace, Helvetica, sans-serif;
     --font-titles: "Jersy-25", monospace, Helvetica, sans-serif;
     --color-glitch-red: hsl(0, 100%, 43%);
     --color-glitch-green: hsl(123, 100%, 30%);
@@ -45,7 +45,7 @@
   body{
     background-color: var(--color-primary);
     color: var(--color-tertiary);
-    font-family:var(--font-feault);
+    font-family:var(--font-default);
     /*text-shadow:1px 1px 1px, 1px 1px 5px;*/
     font-size: 100%;
     font-weight: thin;
@@ -651,6 +651,7 @@ th, tr {
   header nav ul li{
     display: block;
     margin: 0;
+    font-family: var(--font-default);
   }
   .logo{
     width: 80vw;
