@@ -194,7 +194,7 @@
 header nav ul li{
     display: inline-block;
     margin: 0;
-    font-family: var(--font-default)
+    font-family: var(--font-titles)
   }
 header nav ul li a{
   display: block;
