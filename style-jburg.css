@@ -194,6 +194,7 @@
 header nav ul li{
     display: inline-block;
     margin: 0;
+    font-family: var(--font-default)
   }
 header nav ul li a{
   display: block;
@@ -651,7 +652,6 @@ th, tr {
   header nav ul li{
     display: block;
     margin: 0;
-    font-family: var(--font-default);
   }
   .logo{
     width: 80vw;
